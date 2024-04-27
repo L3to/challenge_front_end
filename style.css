@@ -12,6 +12,73 @@ header {
     height: 120px;
     margin-left: 10px;
 }
+.barra {
+    width: 100%; 
+    height: 80px; 
+    background-color: #D3D3D3; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    margin-top: 0;
+    margin-bottom: 5px;
+}
 
+.icon1 {
+    height: 230px;
+    transition: transform 0.3s ease;
+}
+.icon2 {
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+.icon3 {
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+.icon:hover {
+    transform: translateX(10px);
+}
+.box {
+    border-radius: 25px;
+  border: 2px solid #2733b9;
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 10vh;
+    font-family: "Arial", sans-serif;
+    font-size: small;
+    margin-left: 10px;
+}
+.retangulo {
+    width: 100%;
+    height: 300px;
+    background-color: #2A56C0;
+    margin-top: -55px;
+    padding-top: 5px
+}
 
+.diagnostico {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
+.right {
+    display: flex;
+    align-items: right; /* Centraliza verticalmente */
+    width: 100px; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    background-color: #f0f0f0; /* Apenas para visualização */
+}
