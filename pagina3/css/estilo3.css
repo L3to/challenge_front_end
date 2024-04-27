@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #0E51FF;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+.chat-button {
+    background-color: #0E51FF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-image: url('../img/mulher.jpeg');
+    background-size: cover;
+}
+
+.main-content .title {
+    font-size: 100px;
+    color: white;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.services-list li {
+    width: 33.3333%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.services-list li i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label,
+.form-group input {
+    display: block;
+    width: 100%;
+}
+
+.form-group input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #0E51FF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.servicos h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icons a {
+    margin: 10px;
+    display: inline-block;
+}
+
+.icons img {
+    max-width: 100px; /* Altere para o tamanho desejado */
+}
