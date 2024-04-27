@@ -1,0 +1,24 @@
+/* Styling the header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid blue;
+    padding: 10px;
+}
+
+.logo {
+    width: 70px;
+    height: 120px;
+    margin-left: 30px;
+}
+
+.important-box {
+    display: flex;
+    align-items: center;
+}
+
+.chat-text {
+    margin-right: 10px;
+}
+
